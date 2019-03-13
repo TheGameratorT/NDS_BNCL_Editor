@@ -33,7 +33,7 @@
         <Image x:Name="guideImage" HorizontalAlignment="Left" Height="192" Margin="264,119,0,0" VerticalAlignment="Top" Width="256" Stretch="Fill"/>
         <Label Content="2D Viewer:" HorizontalAlignment="Left" Margin="264,43,0,0" VerticalAlignment="Top" Height="43" Width="128" FontWeight="Bold" FontSize="22"/>
         <Button x:Name="openImgBtn" Content="Open Image" HorizontalAlignment="Left" Height="25" Margin="440,10,0,0" VerticalAlignment="Top" Width="80" Click="openImage_Click"/>
-        <Button x:Name="aboutBtn" Content="About" HorizontalAlignment="Left" Height="25" Margin="375,10,0,0" VerticalAlignment="Top" Width="60" Click="About_Click"/>
+        <Button x:Name="settingsBtn" Content="Settings" HorizontalAlignment="Left" Height="25" Margin="375,10,0,0" VerticalAlignment="Top" Width="60" Click="Settings_Click"/>
         <Label x:Name="CommentLabel" HorizontalAlignment="Left" Height="30" Margin="24,263,0,0" VerticalAlignment="Top" Width="210"/>
         <Button x:Name="gfxIDsettingsBtn" Content="Edit GraphicID Settings" HorizontalAlignment="Left" Height="25" Margin="24,223,0,0" VerticalAlignment="Top" Width="210" Click="GfxIDsettingsBtn_Click"/>
         <ComboBox x:Name="ViewerMode_ComboBox" HorizontalAlignment="Left" Height="25" Margin="264,87,0,0" VerticalAlignment="Top" Width="128" SelectionChanged="ViewerMode_ComboBox_SelectionChanged">

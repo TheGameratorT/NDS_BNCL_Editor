@@ -352,9 +352,9 @@ namespace NDS_BNCL_Editor
             saveFileFromDialog_writer.Close();
         }
 
-        private void About_Click(object sender, RoutedEventArgs e)
+        private void Settings_Click(object sender, RoutedEventArgs e)
         {
-            new About().ShowDialog();
+            new SettingsWindow().ShowDialog();
         }
 
         private void GfxIDsettingsBtn_Click(object sender, RoutedEventArgs e)
@@ -372,7 +372,7 @@ namespace NDS_BNCL_Editor
                 Application.Current.MainWindow.Width = 535;
                 Application.Current.MainWindow.Height = 350;
                 openImgBtn.Margin = new Thickness(440, 10, 0, 0);
-                aboutBtn.Margin = new Thickness(375, 10, 0, 0);
+                settingsBtn.Margin = new Thickness(375, 10, 0, 0);
                 HiddenRedRectangle.Visibility = Visibility.Collapsed;
                 guideImage.Margin = new Thickness(264, 119, 0, 0);
                 guideImageLayout.Margin = new Thickness(264, 119, 0, 0);
@@ -385,7 +385,7 @@ namespace NDS_BNCL_Editor
                 Application.Current.MainWindow.Width = 1045;
                 Application.Current.MainWindow.Height = 730;
                 openImgBtn.Margin = new Thickness(948, 10, 0, 0);
-                aboutBtn.Margin = new Thickness(883, 10, 0, 0);
+                settingsBtn.Margin = new Thickness(883, 10, 0, 0);
                 HiddenRedRectangle.Visibility = Visibility.Visible;
                 guideImage.Margin = new Thickness(HiddenRedRectangle.Margin.Left + 255, HiddenRedRectangle.Margin.Top + 192, 0, 0);
                 guideImageLayout.Margin = new Thickness(HiddenRedRectangle.Margin.Left + 255, HiddenRedRectangle.Margin.Top + 192, 0, 0);

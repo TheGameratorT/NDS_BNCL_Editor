@@ -17,9 +17,9 @@ namespace NDS_BNCL_Editor
     /// <summary>
     /// Interaction logic for About.xaml
     /// </summary>
-    public partial class About : Window
+    public partial class Credits : Window
     {
-        public About()
+        public Credits()
         {
             InitializeComponent();
         }
