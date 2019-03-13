@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Games>
+  <Game Name="New Super Mario Bros.">
+    <Scene Name="Titlescreen Menu (UI_O_menu_title_d.bncl)">
+      <Graphic ID="0" Width="255" Height="32" Comment="&quot;Select a game&quot; Text + Layout"/>
+      <Graphic ID="1" Width="255" Height="40" Comment="&quot;Mario Game&quot; Text + Green Pipe"/>
+      <Graphic ID="2" Width="255" Height="40" Comment="&quot;Mario Vs Luigi&quot; Text + Green Pipe"/>
+      <Graphic ID="3" Width="255" Height="40" Comment="&quot;Minigames&quot; Text + Green Pipe"/>
+      <Graphic ID="4" Width="255" Height="40" Comment="&quot;Options&quot; Text + Blue Pipe"/>
+    </Scene>
+    <Scene Name="Titlescreen Logo (UI_O_menu_title_logo_u.bncl)">
+      <Graphic ID="0" Width="66" Height="64"/>
+      <Graphic ID="1" Width="96" Height="32"/>
+      <Graphic ID="2" Width="220" Height="64"/>
+      <Graphic ID="3" Width="136" Height="16"/>
+      <Graphic ID="4" Width="176" Height="16"/>
+      <Graphic ID="5" Width="230" Height="88"/>
+    </Scene>
+    <Scene Name="File Select Menu (UI_O_menu_select_d.bncl)">
+      <Graphic ID="0" Width="16" Height="16" Comment="&quot;Ⓐ&quot; Graphic"/>
+      <Graphic ID="1" Width="16" Height="16" Comment="World Number"/>
+      <Graphic ID="2" Width="172" Height="32" Comment="&quot;File Select&quot; Graphic"/>
+      <Graphic ID="3" Width="80" Height="16" Comment="&quot;File 1&quot; Text"/>
+      <Graphic ID="4" Width="80" Height="16" Comment="&quot;File 2&quot; Text"/>
+      <Graphic ID="5" Width="80" Height="16" Comment="&quot;File 3&quot; Text"/>
+      <Graphic ID="6" Width="64" Height="16" Comment="&quot;New&quot; Text"/>
+      <Graphic ID="7" Width="48" Height="16" Comment="&quot;World&quot; Text"/>
+      <Graphic ID="8" Width="84" Height="32" Comment="&quot;Erase (Yes)&quot; Graphic"/>
+      <Graphic ID="9" Width="84" Height="32" Comment="&quot;Erase (No)&quot; Graphic"/>
+      <Graphic ID="10" Width="28" Height="28" Comment="&quot;Stars&quot; Graphic"/>
+      <Graphic ID="11" Width="84" Height="32" Comment="&quot;Copy&quot; Graphic"/>
+      <Graphic ID="12" Width="84" Height="32" Comment="&quot;Erase&quot; Graphic"/>
+      <Graphic ID="13" Width="255" Height="32" Comment="&quot;Select a file&quot; Text"/>
+      <Graphic ID="14" Width="32" Height="32" Comment="&quot;Copying file&quot; Graphic"/>
+    </Scene>
+    <Scene Name="Options Menu (UI_O_menu_option_d.bncl)">
+      <Graphic ID="0" Width="202" Height="30" Comment="&quot;Sound&quot; Graphic Layout"/>
+      <Graphic ID="1" Width="202" Height="63" Comment="&quot;Controls&quot; Graphic Layout"/>
+      <Graphic ID="2" Width="120" Height="54" Comment="Control Scheme XY/AB"/>
+      <Graphic ID="3" Width="120" Height="54" Comment="Control Scheme YB/XA"/>
+      <Graphic ID="4" Width="48" Height="48" Comment="&quot;XY/AB&quot; Graphic"/>
+      <Graphic ID="5" Width="68" Height="16" Comment="&quot;Sound&quot; Text"/>
+      <Graphic ID="6" Width="92" Height="20" Comment="&quot;Surround&quot; Text"/>
+      <Graphic ID="7" Width="72" Height="20" Comment="&quot;Stereo&quot; Text"/>
+      <Graphic ID="8" Width="114" Height="20" Comment="&quot;Headphones&quot; Text"/>
+      <Graphic ID="9" Width="98" Height="14" Comment="&quot;Controls&quot; Text"/>
+      <Graphic ID="10" Width="48" Height="18" Comment="&quot;Dash&quot; Text"/>
+      <Graphic ID="11" Width="48" Height="18" Comment="&quot;Jump&quot; Text"/>
+      <Graphic ID="12" Width="17" Height="25" Comment="&quot;Right Arrow&quot; Graphic"/>
+      <Graphic ID="13" Width="17" Height="25" Comment="&quot;Left Arrow&quot; Graphic"/>
+      <Graphic ID="14" Width="66" Height="32" Comment="&quot;Ok&quot; Graphic"/>
+    </Scene>
+    <Scene Name="Gameover Scene (UI_O_1P_gameover_u.bncl)">
+      <Graphic ID="0" Width="32" Height="32" Comment="&quot;G&quot; Graphic"/>
+      <Graphic ID="1" Width="32" Height="32" Comment="&quot;a&quot; Graphic"/>
+      <Graphic ID="2" Width="32" Height="32" Comment="&quot;m&quot; Graphic"/>
+      <Graphic ID="3" Width="32" Height="32" Comment="&quot;e&quot; Graphic"/>
+      <Graphic ID="4" Width="32" Height="32" Comment="&quot;O&quot; Graphic"/>
+      <Graphic ID="5" Width="32" Height="32" Comment="&quot;v&quot; Graphic"/>
+      <Graphic ID="6" Width="32" Height="32" Comment="&quot;r&quot; Graphic"/>
+      <Graphic ID="7" Width="32" Height="32" Comment="Unknown, probably leftover"/>
+      <Graphic ID="8" Width="32" Height="32" Comment="Unknown, probably leftover"/>
+      <Graphic ID="9" Width="32" Height="32" Comment="Unknown, probably leftover"/>
+    </Scene>
+    <Scene Name="Worldmap Top Screen (UI_O_1P_course_select_u.bncl)">
+      <Graphic ID="0" Width="16" Height="16" Comment="World Number or Level Number"/>
+      <Graphic ID="1" Width="16" Height="16" Comment="&quot;-&quot; Graphic"/>
+      <Graphic ID="2" Width="16" Height="16" Comment="&quot;Level Starcoin or • &quot; Graphic"/>
+      <Graphic ID="3" Width="40" Height="16" Comment="Number of collected Starcoins"/>
+      <Graphic ID="4" Width="16" Height="16" Comment="&quot;X&quot; Graphic"/>
+      <Graphic ID="5" Width="40" Height="40" Comment="&quot;Inventory Item&quot; Graphic"/>
+      <Graphic ID="6" Width="16" Height="16" Comment="&quot;Left Arrow&quot; Graphic"/>
+      <Graphic ID="7" Width="16" Height="16" Comment="&quot;Right Arrow&quot; Graphic"/>
+      <Graphic ID="8" Width="24" Height="24" Comment="&quot;Starcoin&quot; Graphic"/>
+      <Graphic ID="9" Width="28" Height="16" Comment="&quot;Challenge Mode Arrow&quot; Graphic"/>
+    </Scene>
+    <Scene Name="Worldmap Bottom Screen (UI_O_1P_course_select_d.bncl)">
+      <Graphic ID="0" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="1" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="2" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="3" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="4" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="5" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="6" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="7" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="8" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="9" Width="10" Height="16" Comment="Mario Lives Number"/>
+      <Graphic ID="10" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="11" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="12" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="13" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="14" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="15" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="16" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="17" Width="16" Height="16" Comment="&quot;World Number&quot; Graphic"/>
+      <Graphic ID="18" Width="76" Height="16" Comment="&quot;World&quot; Graphic"/>
+      <Graphic ID="19" Width="16" Height="16" Comment="&quot;Mario Lives&quot; Graphic"/>
+      <Graphic ID="20" Width="16" Height="16" Comment="&quot;X&quot; Graphic"/>
+      <Graphic ID="21" Width="16" Height="16" Comment="Unknown"/>
+      <Graphic ID="22" Width="16" Height="16" Comment="Unknown"/>
+      <Graphic ID="23" Width="16" Height="16" Comment="Unknown"/>
+      <Graphic ID="24" Width="16" Height="16" Comment="&quot;- Path&quot; Graphic"/>
+      <Graphic ID="25" Width="16" Height="16" Comment="&quot;/ Path&quot; Graphic"/>
+      <Graphic ID="26" Width="16" Height="16" Comment="&quot;\ Semi-Path&quot; Graphic"/>
+      <Graphic ID="27" Width="32" Height="32" Comment="&quot;World 1&quot; Graphic"/>
+      <Graphic ID="28" Width="32" Height="32" Comment="&quot;World 2&quot; Graphic"/>
+      <Graphic ID="29" Width="32" Height="32" Comment="&quot;World 3&quot; Graphic"/>
+      <Graphic ID="30" Width="32" Height="32" Comment="&quot;World 4&quot; Graphic"/>
+      <Graphic ID="31" Width="32" Height="32" Comment="&quot;World 5&quot; Graphic"/>
+      <Graphic ID="32" Width="32" Height="32" Comment="&quot;World 6&quot; Graphic"/>
+      <Graphic ID="33" Width="32" Height="32" Comment="&quot;World 7&quot; Graphic"/>
+      <Graphic ID="34" Width="32" Height="32" Comment="&quot;World 8&quot; Graphic"/>
+      <Graphic ID="35" Width="180" Height="16" Comment="&quot;Tap a world to travel there.&quot; Graphic"/>
+      <Graphic ID="36" Width="16" Height="16" Comment="&quot;\ Path&quot; Graphic"/>
+      <Graphic ID="37" Width="16" Height="16" Comment="&quot;/ Semi-Path&quot; Graphic"/>
+      <Graphic ID="38" Width="16" Height="16" Comment="&quot;w1&quot; Graphic"/>
+      <Graphic ID="39" Width="16" Height="16" Comment="&quot;w2&quot; Graphic"/>
+      <Graphic ID="40" Width="16" Height="16" Comment="&quot;w3&quot; Graphic"/>
+      <Graphic ID="41" Width="16" Height="16" Comment="&quot;w4&quot; Graphic"/>
+      <Graphic ID="42" Width="16" Height="16" Comment="&quot;w5&quot; Graphic"/>
+      <Graphic ID="43" Width="16" Height="16" Comment="&quot;w6&quot; Graphic"/>
+      <Graphic ID="44" Width="16" Height="16" Comment="&quot;w7&quot; Graphic"/>
+      <Graphic ID="45" Width="16" Height="16" Comment="&quot;w8&quot; Graphic"/>
+      <Graphic ID="46" Width="12" Height="8" Comment="&quot;Current World Arrow&quot; Graphic"/>
+      <Graphic ID="47" Width="16" Height="16" Comment="Unknown"/>
+      <Graphic ID="48" Width="16" Height="16" Comment="&quot;Arrow Up&quot; Graphic"/>
+    </Scene>
+    <Scene Name="Singleplayer In Game Top Screen (UI_O_1P_game_in_u.bncl)">
+      <Graphic ID="0" Width="44" Height="16" Comment="&quot;Coin Counter&quot; Graphic"/>
+      <Graphic ID="1" Width="42" Height="16" Comment="&quot;Timer&quot; Graphic"/>
+      <Graphic ID="2" Width="16" Height="16" Comment="Unknown, probably leftover"/>
+      <Graphic ID="3" Width="16" Height="16" Comment="Unknown, probably leftover"/>
+      <Graphic ID="4" Width="16" Height="16" Comment="Unknown, probably leftover"/>
+      <Graphic ID="5" Width="16" Height="16" Comment="Unknown, probably leftover"/>
+      <Graphic ID="6" Width="16" Height="16" Comment="Unknown, probably leftover"/>
+    </Scene>
+    <Scene Name="Singleplayer In Game Bottom Screen (UI_O_1P_game_in_d.bncl)">
+      <Graphic ID="0" Width="16" Height="16" Comment="World/Level Indicator Related Graphic"/>
+      <Graphic ID="1" Width="16" Height="16" Comment="World/Level Indicator Related Graphic"/>
+      <Graphic ID="2" Width="16" Height="16" Comment="World/Level Indicator Related Graphic"/>
+      <Graphic ID="3" Width="120" Height="28" Comment="&quot;Score&quot; Graphic"/>
+      <Graphic ID="4" Width="60" Height="20" Comment="&quot;Lives&quot; Graphic"/>
+      <Graphic ID="5" Width="64" Height="64" Comment="&quot;Item&quot; Graphic"/>
+      <Graphic ID="6" Width="80" Height="20" Comment="&quot;Touch!&quot; Graphic"/>
+      <Graphic ID="7" Width="36" Height="36" Comment="&quot;Starcoin&quot; Graphic"/>
+      <Graphic ID="8" Width="16" Height="16" Comment="World/Level Indicator Related Graphic"/>
+      <Graphic ID="9" Width="64" Height="64" Comment="&quot;Item Frame&quot; Graphic"/>
+      <Graphic ID="10" Width="20" Height="48" Comment="&quot;Player Position&quot; Graphic Location"/>
+      <Graphic ID="11" Width="16" Height="16" Comment="World/Level Indicator Related Graphic"/>
+      <Graphic ID="12" Width="28" Height="16" Comment="&quot;Challenge Mode Arrow&quot; Graphic"/>
+    </Scene>
+    <Scene Name="MvsL Main Menu (UI_O_2P_game_boot_select01_d.bncl)">
+      <Graphic ID="0" Width="32" Height="32" Comment="&quot;Back Button&quot; Graphic"/>
+      <Graphic ID="1" Width="250" Height="38" Comment="&quot;Blue Button&quot; Graphic Layout"/>
+    </Scene>
+    <Scene Name="MvsL Character Select (UI_O_2P_game_boot_select02_d.bncl)">
+      <Graphic ID="0" Width="32" Height="32" Comment="&quot;Back Button&quot; Graphic"/>
+      <Graphic ID="1" Width="96" Height="32" Comment="&quot;Mario Button&quot; Graphic"/>
+      <Graphic ID="2" Width="96" Height="32" Comment="&quot;Luigi Button&quot; Graphic"/>
+      <Graphic ID="3" Width="96" Height="32" Comment="&quot;Yes Button&quot; Graphic"/>
+      <Graphic ID="4" Width="96" Height="32" Comment="&quot;No Button&quot; Graphic"/>
+    </Scene>
+    <Scene Name="MvsL In Game Top Screen (UI_O_2P_game_in_u.bncl)">
+      <Graphic ID="0" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="1" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="2" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="3" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="4" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="5" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="6" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="7" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="8" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="9" Width="16" Height="16" Comment="Nothing, development leftover"/>
+      <Graphic ID="10" Width="40" Height="16" Comment="&quot;Coin Counter&quot; Graphic"/>
+      <Graphic ID="11" Width="13" Height="13" Comment="&quot;Battle Star&quot; Graphic"/>
+      <Graphic ID="12" Width="56" Height="20" Comment="&quot;Mario&quot; Text"/>
+      <Graphic ID="13" Width="56" Height="20" Comment="&quot;Luigi&quot; Text"/>
+      <Graphic ID="14" Width="14" Height="14" Comment="&quot;Mario Head (Lives)&quot; Graphic"/>
+      <Graphic ID="15" Width="14" Height="14" Comment="&quot;Luigi Head (Lives)&quot; Graphic"/>
+      <Graphic ID="16" Width="8" Height="8" Comment="Number 5 For Battle Star"/>
+      <Graphic ID="17" Width="100" Height="58" Comment="&quot;Rounds Won (Mario)&quot; Graphic Layout"/>
+      <Graphic ID="18" Width="100" Height="58" Comment="&quot;Rounds Won (Luigi)&quot; Graphic Layout"/>
+      <Graphic ID="19" Width="19" Height="19" Comment="&quot;Rounds Won (Mario)&quot; Graphic"/>
+      <Graphic ID="20" Width="19" Height="19" Comment="&quot;Rounds Won (Luigi)&quot; Graphic"/>
+    </Scene>
+    <Scene Name="MvsL In Game Bottom Screen (UI_O_2P_game_in_d.bncl)">
+      <Graphic ID="0" Width="20" Height="40" Comment="&quot;Mario&quot; Graphic Start Position"/>
+      <Graphic ID="1" Width="20" Height="40" Comment="&quot;Luigi&quot; Graphic Start Position"/>
+      <Graphic ID="2" Width="24" Height="24" Comment="&quot;Star&quot; Graphic Start Position"/>
+      <Graphic ID="3" Width="64" Height="64" Comment="&quot;Item Frame&quot; Graphic"/>
+      <Graphic ID="4" Width="64" Height="64" Comment="&quot;Item&quot; Graphic"/>
+    </Scene>
+    <Scene Name="MvsL Level Transition (UI_O_2P_course_in_demo_u.bncl)">
+      <Graphic ID="0" Width="32" Height="32" Comment="&quot;Mario Head&quot; Graphic"/>
+      <Graphic ID="1" Width="32" Height="32" Comment="&quot;Luigi Head&quot; Graphic"/>
+      <Graphic ID="2" Width="68" Height="16" Comment="&quot;Ready!&quot; Text"/>
+    </Scene>
+  </Game>
+</Games>
