@@ -199,6 +199,9 @@
     <Resource Include="Resources\user32_103.ico" />
     <Resource Include="Resources\user32_104.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="example_linux.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.3.3.5\build\Fody.targets" Condition="Exists('..\packages\Fody.3.3.5\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

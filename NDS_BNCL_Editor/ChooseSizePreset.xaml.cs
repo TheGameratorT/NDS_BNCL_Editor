@@ -1,5 +1,7 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -28,6 +30,23 @@ namespace NDS_BNCL_Editor
         {
             try
             {
+                if (!File.Exists("SizePresets.xml") || new FileInfo("SizePresets.xml").Length == 0)
+                {
+                    MessageBoxResult downloadPresetsPrompt = MessageBox.Show("SizePresets.xml wasn't found or is empty, would you like to download that file?", "", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                    if (downloadPresetsPrompt == MessageBoxResult.Yes)
+                    {
+                        using (var client = new WebClient())
+                        {
+                            client.DownloadFile("https://raw.githubusercontent.com/TheGameratorT/NDS_BNCL_Editor/master/NDS_BNCL_Editor/SizePresets.xml", "SizePresets.xml");
+                        }
+                    }
+                    else if (downloadPresetsPrompt == MessageBoxResult.No)
+                    {
+                        Close();
+                        return;
+                    }
+                }
+
                 SizePresetsXML = XDocument.Load("SizePresets.xml");
                 var GameNames = SizePresetsXML.Descendants("Game").Attributes("Name");
                 foreach (var GameName in GameNames)
