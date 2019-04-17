@@ -3,7 +3,7 @@ This application supported by a GUI and 2D Viewer allows to easly edit BNCL file
 
 # Windows:
 Requirements:
- - .NET Framework 4.6.1 or latest.
+ - .NET Framework 4.6 or latest.
 
 ![alt text](https://raw.githubusercontent.com/TheGameratorT/NDS_BNCL_Editor/master/NDS_BNCL_Editor/example.png)
 
