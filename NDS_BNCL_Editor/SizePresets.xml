@@ -189,7 +189,14 @@
       <Graphic ID="1" Width="20" Height="40" Comment="&quot;Luigi&quot; Graphic Start Position"/>
       <Graphic ID="2" Width="24" Height="24" Comment="&quot;Star&quot; Graphic Start Position"/>
       <Graphic ID="3" Width="64" Height="64" Comment="&quot;Item Frame&quot; Graphic"/>
-      <Graphic ID="4" Width="64" Height="64" Comment="&quot;Item&quot; Graphic"/>
+      <Graphic ID="4" Width="64" Height="64" Comment="Super Mushroom Graphic"/>
+      <Graphic ID="5" Width="64" Height="64" Comment="Fire Flower Graphic"/>
+      <Graphic ID="6" Width="64" Height="64" Comment="Mega Mushroom Graphic"/>
+      <Graphic ID="7" Width="64" Height="64" Comment="Blue Shell Graphic"/>
+      <Graphic ID="8" Width="64" Height="64" Comment="Mini Mushroom Graphic"/>
+      <Graphic ID="9" Width="64" Height="64" Comment="&quot;No Item&quot; Graphic"/>
+      <Graphic ID="10" Width="80" Height="20" Comment="&quot;Touch!&quot; Graphic"/>
+      <Graphic ID="11" Width="162" Height="30" Comment="&quot;Continue&quot; Button"/>
     </Scene>
     <Scene Name="MvsL Level Transition (UI_O_2P_course_in_demo_u.bncl)">
       <Graphic ID="0" Width="32" Height="32" Comment="&quot;Mario Head&quot; Graphic"/>
